@@ -1,0 +1,53 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises.qmd"
+author: "Zoe Haighton"
+---
+
+rounding a number to the nearest whole number
+```{r}
+round(3.14159)
+```
+Rounding to two digits 
+```{r}
+round(3.14159, digits=2)
+
+```
+
+Printing numbers/ sequences repeated
+```{r}
+print( rep(x=5, times = 7))
+```
+
+
+```{r}
+character <- 'a'
+print(character)
+print(class(character))
+
+number <- '6' 
+print(number)
+print(class(number))
+
+x <- TRUE
+print(x)
+print(class(x))
+```
+
+```{r}
+cell_type_1 <- "CX1"
+cell_type_2 <- "CX2"
+
+treated_1 <- TRUE
+treated_2 <- FALSE
+
+cells_before_1 <- 5415
+cells_before_2 <- 8123
+
+cells_after_1 <- 1432
+cells_after_2 <- 7543
+
+
+```
+
+```
+
