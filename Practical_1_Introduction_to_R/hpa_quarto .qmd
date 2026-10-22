@@ -1,0 +1,42 @@
+---
+title: "HPA lab practical 1"
+author: "Zoe Haighton"
+---
+I am calculating the total number of genes with regionally elevated expression in the forebrain in pigs, mice and humans using the sum function 
+
+First, I will calculate the total number of elevated genes in the forebrain (cerebral cortex, basal ganglia, thalamus and hypothalamus) in Humans
+```{r}
+sum(180, 83, 57, 110)
+```
+
+Now, I will do the same for pigs
+```{r}
+sum(109, 157, 31, 45 )
+```
+
+Finally, I will calculate the total number of regionally elevated genes in the forebrain of mice
+```{r}
+sum(55, 185, 60, 98)
+```
+
+Overall, humans were the species that had the highest number of regionally elevated genes in the forebrain 
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
